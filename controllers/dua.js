@@ -17,6 +17,7 @@ export const categoryBn = async (req,res)=>{
           id:row.id,
           cat_id: row.cat_id,
           cat_name: row.cat_name_bn, // Renamed column
+          no_of_subcat: row.no_of_subcat,
           no_of_dua: row.no_of_dua, 
           cat_icon:row.cat_icon 
         };
@@ -45,6 +46,7 @@ export const categoryEn = async (req,res)=>{
         id:row.id,
         cat_id: row.cat_id,
         cat_name: row.cat_name_en, // Renamed column
+        no_of_subcat: row.no_of_subcat,
         no_of_dua: row.no_of_dua, 
         cat_icon:row.cat_icon 
       };
